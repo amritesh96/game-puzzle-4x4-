@@ -1,0 +1,165 @@
+body{
+	border-style: solid;
+	border-width: 10px;
+	border-color: #00896F;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px 10px blueviolet;
+	height: 590px;
+}
+#play-box {
+	clear: both;
+	height: 500px;
+	width: 500px;
+	margin: 10px auto 40px auto;
+	background-color:#FFC75F;;
+	border-radius: 10px;
+	position: relative;
+	left: 380px;
+	top:10px;
+	box-shadow: 10px 10px 10px 10px rgb(26, 15, 13);
+	
+	
+}
+#grid {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	right: 800px;
+	
+}
+.row .grid-cell {
+	width: 103px;
+	height: 103px;
+	float: left;
+	margin: 6px;
+	background-color:  rgba(4, 68, 18, 0.11);
+	border-radius: 10px;
+	position: relative;
+	left: 800px;
+	box-shadow: 10px 10px;
+
+}
+#cells-container {
+	padding: 20px;
+	box-shadow: rgb(135, 222, 161);
+}
+#tiles-container {
+	position: relative;
+	right: 800px;
+}
+.tile {
+	position: absolute;
+	background-color:  #00C2A8;
+	width: 103px;
+	height: 103px;
+	border-radius: 10px;
+	line-height: 105px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30pt;
+	transition: all 0.2s ease-out 0s;
+	box-shadow: 10px 10px 10px #FFC75F;		
+	cursor: pointer;
+}
+#text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 70px;
+	color: white;
+	transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  }
+
+
+  #start-button {
+	border-radius: 5px;
+	font-weight: bold;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 15pt;
+	margin-left:550px ;
+	position:absolute;
+	margin-top: 100px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: rgba(255, 255, 165, 1);
+	box-shadow: 10px 10px 10px 10px rgb(70, 68, 67);
+	border-radius: 10px;
+}
+#submit-button{
+	border-radius: 5px;
+	font-weight: bold;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 15pt;
+	color:black;
+	text-decoration: none;
+	margin-left:550px ;
+	position:absolute;
+	margin-top: 350px;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: rgba(255, 255, 165, 1);
+	box-shadow: 10px 10px 10px 10px rgb(70, 68, 67);
+	border-radius: 10px;
+}
+#random-button{
+	border-radius: 5px;
+	font-weight: bold;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 15pt;
+	color:black;
+	text-decoration: none;
+	margin-left:550px ;
+	position:absolute;
+	margin-top: 100px;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: rgba(255, 255, 165, 1);
+	box-shadow: 10px 10px 10px 10px rgb(70, 68, 67);
+	border-radius: 10px;
+}
+#manual-button{
+	border-radius: 5px;
+	font-weight: bold;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 15pt;
+	color:black;
+	text-decoration: none;
+	margin-left:550px ;
+	position:absolute;
+	margin-top: 200px;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: rgba(255, 255, 165, 1);
+	box-shadow: 10px 10px 10px 10px rgb(70, 68, 67);
+	border-radius: 10px;
+}
+#overlay {
+	position: fixed;
+	display: none;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(7, 0, 0, 0.5);
+	z-index: 100;
+	cursor: pointer;
+  }
